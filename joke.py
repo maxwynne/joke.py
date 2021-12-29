@@ -14,10 +14,22 @@ def main():
     currentJoke.tell()
 
 class Joke(object):
+    def __init__(self, punchline)
+    self.visitor = visitor
+    self.punchline = punchline
 
-    call = ("What do you get when you cross a snowman with a vampire?")
-    response1_set = {"What?", "Not sure", " ", "What"}
+    def get_self(self):
+        return self.self 
 
-    def __init__(self, visitor, punchline)
+    def get_punchline(self):
+        return self.punchline
+
+    enter()
+
+def tell(self):
+    print self.call_1
+    response = raw_input("> ")
+
+    while not (response in self.response1_set)
 
 print(mylist)
