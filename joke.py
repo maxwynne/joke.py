@@ -1,35 +1,23 @@
-#from sys import exit
 import csv
+import sys
 from random import shuffle
+import pyjokes
 
-def myfunction():
-    return 0.1
+print(pyjokes.getjoke())
 
-jokes = mylist(csv.reader(open('jokes.txt', 'rb'), delimiter='\t'))
-random.shuffle(jokes, myfunction)
+def joke1():
+    joke1 = pyjokes.get_jokes(language='en', category='neutral')
+    currentJoke = joke1
 
-def main():
-    new_joke = jokes.pop()
-    currentJoke = Joke(new_joke[0], new_joke[1])
-    currentJoke.tell()
+    print(joke1)
 
-class Joke(object):
-    def __init__(self, punchline)
-    self.visitor = visitor
-    self.punchline = punchline
+def joke2():
+    joke2 = pyjokes.get_jokes(language='en', category='neutral')
+    currentJoke = joke2
 
-    def get_self(self):
-        return self.self 
+    print(joke2)
 
-    def get_punchline(self):
-        return self.punchline
+jokes = pyjokes.get_jokes(language='en', category='neutral')
 
-    enter()
-
-def tell(self):
-    print self.call_1
-    response = raw_input("> ")
-
-    while not (response in self.response1_set)
-
-print(mylist)
+for i in range(5):
+    print(jokes[i])
